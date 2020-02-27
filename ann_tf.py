@@ -88,7 +88,7 @@ def load_mnist_data():
 
     x_train = x_train.reshape((-1, 784)).T
     x_test = x_test.reshape((-1, 784)).T
-
+    
     y_train = convert_to_one_hot(y_train,10)
     y_test = convert_to_one_hot(y_test,10)
 
